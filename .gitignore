@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local generation runtime and submission packages
+/.venv/
+/output/
+/handoff/
+__pycache__/
+*.pyc
+!.env.example
